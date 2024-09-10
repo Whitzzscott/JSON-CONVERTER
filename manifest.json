@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "JSON Converter",
+    "version": "1.0.0",
+    "description": "Converts input fields into JSON and vice versa, with export options.",
+    "permissions": ["storage"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_title": "JSON Converter",
+      "default_icon": "icons/icon.png"
+    },
+    "background": {
+      "service_worker": "background.js"
+    },
+    "icons": {
+      "128": "icons/icon.png"
+    }
+  }  
